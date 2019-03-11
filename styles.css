@@ -1,9 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 html,body{
-  background:#00ff99;
+  text-align: center;
+  background: #00ff99;
+  font-family: 'Lato', Helvetica, sans-serif;
 }
 #title{
+  text-align: center;
 
+}
+
+#form-outer{
+  background-color:#9999bb;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 4px;
+  width:80%;
+  max-width: 980px;
+}
+
+.labels{
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field{
+  height: 25px;
+  width: 300px;
+  padding: 5px;
   
+  border: 1px solid #2822bd;
+}
 
+#age{
+ 
+}
+#submit {
+  background-color: #59ffe0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid #2822bd;
 }
